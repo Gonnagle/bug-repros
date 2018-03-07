@@ -1,0 +1,24 @@
+[EXCEPTION_UNHANDLED] (0xc0000005) at address [0x6a3580ec]
+
+*** Stack Trace (x86) ***
+
+[0x6a3580ec]  AtlThunk_FreeData()
+[0x00cebec7]  -----
+[0x6a35193d]  -----
+[0x75418e71]  CallNextHookEx()
+[0x754190d1]  CallNextHookEx()
+[0x7541932c]  CallNextHookEx()
+[0x75419529]  CallNextHookEx()
+[0x76f50666]  KiUserCallbackDispatcher()
+[0x022b2767]  -----
+[0x01537e09]  -----
+[0x0224eb81]  -----
+[0x01d32509]  -----
+[0x00d1fb1c]  -----
+[0x00d1e988]  -----
+[0x00cf808f]  -----
+[0x02594049]  -----
+[0x74b37c04]  BaseThreadInitThunk()
+[0x76f6ad8f]  RtlInitializeExceptionChain()
+[0x76f6ad5a]  RtlInitializeExceptionChain()
+[0x00b60000]  MODULE_BASE_ADDRESS

@@ -1,0 +1,51 @@
+[EXCEPTION_UNHANDLED] (0xc0000005) at address [0x6a358248]
+
+*** Stack Trace (x86) ***
+
+[0x6a358248]  AtlThunk_FreeData()
+[0x00cebec7]  -----
+[0x6a351f7d]  -----
+[0x75418e71]  CallNextHookEx()
+[0x754190d1]  CallNextHookEx()
+[0x7541932c]  CallNextHookEx()
+[0x75419529]  CallNextHookEx()
+[0x76f50666]  KiUserCallbackDispatcher()
+[0x7541b098]  GetAncestor()
+[0x7541e912]  SendMessageW()
+[0x7542f388]  EnableMenuItem()
+[0x7542f4f5]  EnableMenuItem()
+[0x75418e71]  CallNextHookEx()
+[0x754190d1]  CallNextHookEx()
+[0x7541932c]  CallNextHookEx()
+[0x75419529]  CallNextHookEx()
+[0x76f50666]  KiUserCallbackDispatcher()
+[0x7541a989]  IsWindow()
+[0x75444321]  IsDialogMessageW()
+[0x75434fcd]  IsHungAppWindow()
+[0x75435082]  DialogBoxIndirectParamAorW()
+[0x7543503b]  DialogBoxIndirectParamW()
+[0x0f80a79f]  AA_IsEnabled()
+[0x0f807c54]  AA_IsEnabled()
+[0x0f7f7d7b]  AA_IsEnabled()
+[0x75420084]  FillRect()
+[0x75420084]  FillRect()
+[0x00300028]  -----
+[0x00630078]  -----
+[0x00300030]  -----
+[0x00300030]  -----
+[0x00300030]  -----
+[0x00290035]  -----
+[0x00610020]  -----
+[0x00200074]  -----
+[0x00640061]  -----
+[0x00720064]  -----
+[0x00730065]  -----
+[0x00200073]  -----
+[0x0030005b]  -----
+[0x00360078]  -----
+[0x00330061]  -----
+[0x00380035]  -----
+[0x00340032]  -----
+[0x005d0038]  -----
+[0x000a000d]  -----
+[0x00b60000]  MODULE_BASE_ADDRESS
